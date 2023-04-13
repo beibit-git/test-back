@@ -1,11 +1,12 @@
-package kz.test.model;
+package kz.test.dto.requestDto;
 
 import lombok.Data;
 
 @Data
-public class Order {
-    private Long id;
+public class OrderRequest {
     private String title;
+
     private Integer quantity;
+
     private Float amount;
 }
